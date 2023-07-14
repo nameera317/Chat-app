@@ -1,0 +1,97 @@
+body{
+    background-color: #54c3ef;
+    height: 100vh;
+    font-style: italic;
+  font-family: "Caveat Brush", cursive;
+}
+
+.h1{
+    font-size: 35px;
+    margin-top: 1px;
+    color: #FFA4B6;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.container{
+    max-width: 955px;
+    margin: auto;
+    height: 60vh;
+    border-radius: 10px;
+    background-image: url("https://wallpapers.com/images/hd/bubble-background-8jg9pyys83y30a3o.jpg");
+    background-color: #cccccc;
+    border: 2px solid white;
+    margin-top: 23px;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 5px;
+   
+}
+
+.message{
+    background-color:#FFA4B6;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.left{
+    float: left;
+    clear: both;
+    margin: 1px;
+}
+.right{
+    float: right;
+    clear: both;
+    margin: 1px;
+}
+.mid{
+    margin: auto;
+    margin-top: 10px;
+    clear: both;
+    background-color: white;
+    text-align: center;
+}
+.send{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageInp{
+    width: 91%;
+    border: 2px solid white;
+    border-radius: 6px;
+    height: 34px;
+    background-color:#FFA4B6;
+    font-style: italic;
+    font-family: "Caveat Brush", cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+#messageInp::placeholder { 
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 6px;
+    height: 34px;
+    background-color: #FFA4B6;
+    font-style: italic;
+    font-family: "Caveat Brush", cursive;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
